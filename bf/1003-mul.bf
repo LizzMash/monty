@@ -1,22 +1,19 @@
-read 
+read from stdin
 >, >, <<
-
-convert from ascii
+convert atoi
 +++++ +
 [
  >----- ---
  >----- ---
  <<-
 ]
-
-multiply
+multiply two integers
 >[
  >[>+>+<<-]
  >[<+>-]
  <<-
 ]
-
-separate numbers
+separate two digits inputed
 >[-]>+> >+++++ +++++<
 [
  - >- [>>>]+++++ +++++<<+
@@ -24,17 +21,13 @@ separate numbers
 ]
 <-
 <+++++ +++++>>>[-<<<->>>]<<<
-
-convert to ascii
+convert itoa
 <+++++ +
 [
  >+++++ +++>
  [+++++ +++>]
  <[<]>-
 ]
-
-product
+print with newline
 >>[.<<]<[<<]>>.
-
-print newline
-<++++++++++.
+>>,. 
